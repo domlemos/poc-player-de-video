@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Controle de Video</title>
+</head>
+<body> 
+    <h2><a href="./arquivoslocais.html">Testes com arquivos locais</a></h2>
+    <hr>
+    <h1>Teste OGG - "Reach Out" Four Tops</h1>
+    <video name="video-screen1" class="video-screen" src="https://s3.amazonaws.com/vuejs.ajudinhaweb.com.br/reach-out.ogg" type="video/ogg" controls>
+        Video não pode ser exibido
+    </video>
+
+    <button onclick="play('video-screen1')">play</button>
+    <button onclick="pause('video-screen1')">pause</button>
+    <button onclick="stop('video-screen1')">stop</button>
+    <button onclick="dec('video-screen1')"> - </button>
+    <button onclick="inc('video-screen1')"> + </button>    
+    <button onclick="retroceder('video-screen1')"> - 5 seg &#60; &#60; </button>
+    <button onclick="avancar('video-screen1')"> + 5 seg &#62; &#62; </button>
+    
+    
+
+    <hr>
+    <h1>Teste MKV - "Big Bang Baby" Stone Temple Pilots</h1>
+    <video name="video-screen2" class="video-screen" src="https://s3.amazonaws.com/vuejs.ajudinhaweb.com.br/bigbangbaby-2023-07-17_17.19.24.mkv" type="video/mkv" controls>
+        Video não pode ser exibido
+    </video>
+
+    <button onclick="play('video-screen2')">play</button>
+    <button onclick="pause('video-screen2')">pause</button>
+    <button onclick="stop('video-screen2')">stop</button>
+    <button onclick="dec('video-screen2')"> - </button>
+    <button onclick="inc('video-screen2')"> + </button>    
+    <button onclick="retroceder('video-screen2')"> - 5 seg &#60; &#60; </button>
+    <button onclick="avancar('video-screen2')"> + 5 seg  seg &#62; &#62; </button>
+
+    <hr>
+    <h1>Teste WEBDM - "Dia Branco" Geraldo Azevedo e Chico Cesar</h1>
+    <video name="video-screen3" class="video-screen" src="https://s3.amazonaws.com/vuejs.ajudinhaweb.com.br/dia-branco.webm" type="video/webdm" controls>
+        Video não pode ser exibido
+    </video>
+
+    <button onclick="play('video-screen3')">play</button>
+    <button onclick="pause('video-screen3')">pause</button>
+    <button onclick="stop('video-screen3')">stop</button>
+    <button onclick="dec('video-screen3')"> - </button>
+    <button onclick="inc('video-screen3')"> + </button>    
+    <button onclick="retroceder('video-screen3')"> - 5 seg &#60; &#60; </button>
+    <button onclick="avancar('video-screen3')"> + 5 seg &#62; &#62; </button>
+
+    <hr>
+    <h1>Teste MOV - "Still the Same" Bob Seger</h1>
+    <video name="video-screen4" class="video-screen" src="https://s3.amazonaws.com/vuejs.ajudinhaweb.com.br/stillthesame.mov" type="video/mov" controls>
+        Video não pode ser exibido
+    </video>
+
+    <button onclick="play('video-screen4')">play</button>
+    <button onclick="pause('video-screen4')">pause</button>
+    <button onclick="stop('video-screen4')">stop</button>
+    <button onclick="dec('video-screen4')"> - </button>
+    <button onclick="inc('video-screen4')"> + </button>    
+    <button onclick="retroceder('video-screen4')"> - 5 seg &#60; &#60; </button>
+    <button onclick="avancar('video-screen4')"> + 5 seg &#62; &#62; </button>
+
+    <hr>
+    <h1>Teste Mp4 - "Run" Gnarls Barckley</h1>
+    <video name="video-screen5" class="video-screen" src="https://s3.amazonaws.com/vuejs.ajudinhaweb.com.br/run.mp4" type="video/mp4" controls>
+        Video não pode ser exibido
+    </video>
+
+    <button onclick="play('video-screen5')">play</button>
+    <button onclick="pause('video-screen5')">pause</button>
+    <button onclick="stop('video-screen5')">stop</button>
+    <button onclick="dec('video-screen5')"> - </button>
+    <button onclick="inc('video-screen5')"> + </button>    
+    <button onclick="retroceder('video-screen5')"> - 5 seg &#60; &#60; </button>
+    <button onclick="avancar('video-screen5')"> + 5 seg &#62; &#62; </button>
+
+    <script src="script.js"></script>
+</body>
+</html>

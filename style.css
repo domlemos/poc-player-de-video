@@ -1,0 +1,10 @@
+.video-screen {
+    width: 560px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+video::-webkit-media-controls-panel {
+    display: flex !important;
+    opacity: 1 !important;
+ }
